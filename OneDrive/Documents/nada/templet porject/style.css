@@ -59,4 +59,8 @@
 .header .links {
     position: relative;
 }  
-
+.header .links .icon  {
+width: 30px;
+display: flex; 
+flex-wrap: wrap; 
+}
