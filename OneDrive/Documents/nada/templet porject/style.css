@@ -43,4 +43,19 @@
       width: 1170px;
     }
   }
-  /* End Global Rules */
+  /* End Global Rules */ 
+  .header {
+    padding: 20px;
+
+  } 
+   .header .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.header .logo {
+    width: 60px; 
+} 
+.header .links {
+    position: relative;
+} 
