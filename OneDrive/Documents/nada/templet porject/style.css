@@ -146,7 +146,7 @@ body {
 /* End Header */
 /* Start Landing Section */
 .landing {
-  background-image: url(download.jpeg);
+  background-image: url(a.html);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
@@ -288,3 +288,13 @@ body {
   margin-bottom: 0;
 }
 /* End Portfolio */
+.about{
+padding-top: var(--section-padding);
+padding-bottom: calc(var(--section-padding)+60px);
+}
+.about .content{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
