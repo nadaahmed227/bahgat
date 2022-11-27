@@ -108,7 +108,7 @@ padding-left: 25px;
 border-bottom: 1px solid #ddd;
 } 
 .landing {
-  background-image: url(a.html)
+  background-image: url(https://th.bing.com/th/id/OIP.9LeBvh4MFfM5sYiGyXT1ogHaE8?w=302&h=201&c=7&r=0&o=5&dpr=1.25&pid=1.7)
   height: calc(100vh -64px);  
   position: relative;
 } 
@@ -136,4 +136,11 @@ line-height: 1.8;
 padding-bottom: 60px; 
 background-color: #f6f6f6; 
 } 
-
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); 
+  grid-gap: 20px;
+}  
+.features .feat {
+  
+}
