@@ -1,7 +1,10 @@
 /* Start Variables */ 
 .root{
 --main-color: #10cab7; 
---secondary-color:#2c4755;
+--secondary-color:#2c4755; 
+--section-padding:60px;  
+--section-background :#f6f6f6;  
+
 }
   /* End Variables */
   /* Start Global Rules */
@@ -240,5 +243,10 @@ font-size: 17px;
   .image-column{
     direction: none;
   }
+} 
+.portfolio {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding); 
+  background-color: #f6f6f6; 
 }
 
