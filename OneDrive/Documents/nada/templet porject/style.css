@@ -1,6 +1,7 @@
 /* Start Variables */ 
 .root{
---main-color: #10cab7;
+--main-color: #10cab7; 
+--secondary-color:#2c4755;
 }
   /* End Variables */
   /* Start Global Rules */
@@ -201,5 +202,32 @@ font-size: 17px;
   .services .services-content .srv {
     flex-direction: column;
     text-align: center;
+}
+} 
+.services .services-content .srv i {
+  color:var(--main-color); 
+  flex-basis: 60px; 
+} 
+.services .services-content .srv .text {
+  flex:1; 
+} 
+.services .services-content .srv .text h3{
+  margin: 0;
+} 
+.services .services-content .srv .text p {
+  color:#777;
+  font-weight: 300;
+  line-height: 1.6; 
+} 
+.services .services-content .srv .image {
+  text-align: center; 
+  position: relative;
+}
+.services .services-content .srv .image::backdrop {
+  content: "";
+}
+.services .services-content .srv .image img {
+  width: 200px; 
+
 }
 
