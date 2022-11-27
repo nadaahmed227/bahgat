@@ -4,7 +4,8 @@
     --secondary-color: #2c4755;
     --section-padding: 60px;
     --section-background: #f6f6f6;
-    --main-duration: 0.5s;
+    --main-duration: 0.5s; 
+    
   }
   /* End Variables */
   /* Start Global Rules */
@@ -419,10 +420,3 @@
     color: var(--main-color);
   }
   /* End Footer */ 
-  :root {
-    --main-color: #10cab7;
-    --secondary-color: #2c4755;
-    --section-padding: 60px;
-    --section-background: #f6f6f6;
-    --main-duration: 0.5s;
-  }
