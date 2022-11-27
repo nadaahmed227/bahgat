@@ -224,10 +224,21 @@ font-size: 17px;
   position: relative;
 }
 .services .services-content .srv .image::backdrop {
-  content: "";
+  content: ""; 
+  background-color: var(--secondary-color); 
+  width: 100px;
+  height: calc(100%+40);
+  top: -50;
+  position: absolute;
+  right: 0;
+  z-index: 1;
 }
 .services .services-content .srv .image img {
   width: 200px; 
-
+} 
+@media (max-width:1199px){
+  .image-column{
+    direction: none;
+  }
 }
 
