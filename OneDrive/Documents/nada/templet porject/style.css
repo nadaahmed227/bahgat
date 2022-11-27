@@ -303,6 +303,12 @@ padding-bottom: calc(var(--section-padding)+60px);
   width: 250px; 
   height: 375px;
 } 
+@media (max-width: 767px) {
+  .services .services-content .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .about .about-content .image::before{
 content: ""; 
 position: absolute; 
