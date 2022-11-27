@@ -39,7 +39,23 @@
       width: 1170px;
     }
   }
-  /* End Global Rules */ 
+  /* End Global Rules */  
+  /* star components*/ 
+  .specail-heading{
+    color: #ebebeb;
+    font-size: 100px;
+    text-align: center; 
+    font-weight: 800; 
+    letter-spacing: -3px; 
+    margin: 0;
+  } 
+  .specail-heading +p {
+    margin: -3px; 
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+  }
+  /* end components*/
   .header {
     padding: 20px;
 
