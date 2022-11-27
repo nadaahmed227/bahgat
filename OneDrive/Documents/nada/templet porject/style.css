@@ -54,6 +54,14 @@
     font-size: 20px;
     text-align: center;
     color: #797979;
+  } 
+  @media(max-width:767px ){
+    .specail-heading{
+      font-size: 60px;
+    } 
+    .specail-heading +p{
+      margin-top: -20px ;
+    }
   }
   /* end components*/
   .header {
