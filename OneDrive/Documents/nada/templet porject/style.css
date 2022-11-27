@@ -82,7 +82,7 @@ width: 100%;
   padding: 0;
   background-color: #f6f6f6;
   position: absolute;
-  
+  z-index: 1;
 } 
 .header .links ul::before {
   content: "";
@@ -115,7 +115,8 @@ border-bottom: 1px solid #ddd;
 .landing .intro-text{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 50%; 
+  text-align: center;
   transform:translate(-50%,-50%);
 }
 .landing .intro-text h1{
@@ -126,6 +127,11 @@ color:  var(--main-color);
 
 }  
 .landing .intro-text p{
+font-size: 19px;
+line-height: 1.8;
+} 
 
+.features{ 
+  padding-top: 60px;
+padding-bottom: 60px;
 }
-
