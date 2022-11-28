@@ -249,8 +249,7 @@ line-height: 1.8;
     background-color: var(--secondary-color); 
      width: 100px; 
      height: calc(100%+100%); 
-     top:-50px;
-     position: relative; 
+     
      right: 0;
      z-index: 1;
   }
