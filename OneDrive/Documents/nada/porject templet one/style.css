@@ -5,6 +5,12 @@
     --section-padding: 60px;
     --section-background: #f6f6f6;
     --main-duration: 0.5s;   
+  } 
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
   }
   /* End Variables */
 /* Start Global Rules */
@@ -12,7 +18,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }  
+  }   
 
   .container {
     padding-left: 15px;
@@ -376,4 +382,28 @@ line-height: 1.8;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
+  }.contact .info .link {
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
   }
+  .contact .info .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .contact .info .social i {
+    margin-left: 10px;
+    color: var(--secondary-color);
+  }
+  @media (max-width: 767px) {
+    .contact .info .label,
+    .contact .info .link {
+      font-size: 25px;
+    }
+  }
+  /* End Contact */ 
+
