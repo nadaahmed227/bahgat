@@ -265,7 +265,7 @@ line-height: 1.8;
   /* end  Services  */  
   /* Start Portfolio */
   .portfolio{
-    padding-top: var(--section-padding); 
+    padding-top: var(--section-paddi 
     padding-bottom: var(--section-padding); 
     background-color: var(--section-padding); 
   }
