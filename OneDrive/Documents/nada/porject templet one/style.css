@@ -140,6 +140,9 @@
     text-decoration: none;
     color: #333;
     transition: var(--main-duration);
+  } 
+  .header .links ul li a:hover{
+
   }
 
 
