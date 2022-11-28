@@ -227,8 +227,7 @@ line-height: 1.8;
   } 
   .services .services-content .srv i {
     color: var(--main-color);
-    flex-basis: 60px;
-  } 
+    
   .services .services-content .srv .text {
     flex: 1;
   }
