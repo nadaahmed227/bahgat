@@ -33,5 +33,9 @@
 .special-heading{
     color: #ebebeb;
     font-size: 100px;
-    align-items: center;
+    align-items: center; 
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
 }
+
