@@ -71,7 +71,17 @@
 .header .links:hover .icon span:nth-child(2) {
     width: 100%;
   }
-
+  .header .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 2px;
+  
 
 
 
