@@ -151,6 +151,8 @@
 /* Start Landing Section */
 .landing{
     background-image: url(OIP\ \(3\).jpeg); 
-    background-size: cover;
+    background-size: cover; 
+    height: calc(100vh - 64px);
+    position: relative;
 }
 
