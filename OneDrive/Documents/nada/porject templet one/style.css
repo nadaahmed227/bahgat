@@ -247,5 +247,6 @@ line-height: 1.8;
   .services .services-content .image::before {
     content: ""; 
     background-color: var(--secondary-color); 
-    
+     width: 100px; 
+     height: calc(100%+100%);
   }
