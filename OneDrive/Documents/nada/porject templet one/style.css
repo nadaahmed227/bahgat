@@ -159,6 +159,7 @@
     position: absolute;
     left: 50%;
     top: 50%; 
-    align-items: center;
+    align-items: center; 
+    transform: translate(-50%, -50%);
 }
 
