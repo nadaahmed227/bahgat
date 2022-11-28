@@ -348,4 +348,11 @@ line-height: 1.8;
   .about .about-content .image img {
     max-width: 100%;
   } 
-  
+  .about .about-content .text {
+    flex-basis: calc(100% - 500px);
+  }
+  .about .about-content .text p:first-of-type {
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 50px;
+  }
