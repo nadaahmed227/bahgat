@@ -171,6 +171,5 @@
     color: var(--main-color);
 }
 .landing .intro-text p{
-    
+font-size: 19px ;
 }
-
