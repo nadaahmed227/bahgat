@@ -129,7 +129,10 @@
     border-color: transparent transparent #f6f6f6 transparent;
     position: absolute; 
     top:5px; 
-    left:-20px  
+    left:-20px  ; 
+  }
+  .header .links:hover ul {
+    display: block;
   }
 
 
