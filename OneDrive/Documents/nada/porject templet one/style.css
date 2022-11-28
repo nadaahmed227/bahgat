@@ -145,8 +145,9 @@
   padding-left: 25px;
   }
   .header .links ul li:not(:last-child) a {
-    border-bottom: 1px  #ddd;
-  }
+    border-bottom: 1px solid #ddd;
+  } 
+  
 
 
 
