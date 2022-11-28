@@ -182,5 +182,6 @@ line-height: 1.8;
     grid-gap: 20px;
 }
 .features .feat {
-    
+    padding: 20px;
+  text-align: center;
 }
