@@ -245,5 +245,7 @@ line-height: 1.8;
     position: relative;
   }
   .services .services-content .image::before {
+    content: ""; 
+    background-color: var(--secondary-color); 
     
   }
